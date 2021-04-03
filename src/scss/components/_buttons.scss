@@ -1,0 +1,15 @@
+.main-btn {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 295px;
+  width: 100%;
+  height: 48px;
+  min-height: 48px;
+  background: linear-gradient(270deg, #5f5ef5 0%, #00a6f6 100%);
+  border-radius: 30px;
+  color: #fff;
+  margin: 2.463vh auto 0 auto;
+}

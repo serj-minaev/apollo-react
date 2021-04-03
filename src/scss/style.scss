@@ -1,0 +1,96 @@
+// Variables
+@import "variables";
+// Bootstrap
+@import "bootstrap/bootstrap-rtl";
+
+// Pages
+
+//Libs
+@import "~swiper/swiper-bundle";
+
+//Components
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+:root {
+}
+
+//////////////////////////////////////////
+// Body
+//////////////////////////////////////////
+body {
+  //   font-family: "Heebo", sans-serif;
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+  color: $text-color;
+}
+
+//////////////////////////////////////////
+// Header
+//////////////////////////////////////////
+header {
+}
+//////////////////////////////////////////
+// Main
+//////////////////////////////////////////
+main {
+}
+//////////////////////////////////////////
+// Hero section
+//////////////////////////////////////////
+
+//////////////////////////////////////////
+// Section
+//////////////////////////////////////////
+section {
+  .container {
+    padding: 0;
+    overflow-y: auto;
+  }
+}
+//////////////////////////////////////////
+// Dino link
+//////////////////////////////////////////
+.dino-link {
+  // position: absolute;
+  // bottom: 0;
+  // left: 50%;
+  // transform: translate(-50%, 0);
+  z-index: 2;
+  @include media-breakpoint-up(xl) {
+    left: 0;
+    display: inline-block;
+    // margin-bottom: 10px;
+    margin-left: 10px;
+    transform: none;
+  }
+  img {
+    height: 10px;
+  }
+}
+
+//////////////////////////////////////////
+// Form
+//////////////////////////////////////////
+
+//////////////////////////////////////////
+// Modals
+//////////////////////////////////////////
+.modal {
+  .modal-content {
+    .modal-header {
+      .modal-title {
+        img {
+        }
+        .close {
+        }
+      }
+    }
+
+    .modal-body {
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 100%;
+  // padding: 10.667vw 3.57vh;
+  padding: 3.571vh 10.667vw;
+  margin-bottom: 0.985vh;
+  .app-icon {
+    margin-bottom: -8px;
+  }
+}

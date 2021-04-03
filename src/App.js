@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import {
   ApolloClient,
   ApolloLink,
@@ -11,6 +11,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import AddTransaction from "./components/AddTransaction/AddTransaction";
 
 const AuthHeaders = process.env.REACT_APP_AUTHORIZATION;
+// const ServerLink = process.env.REACT_APP_SERVERLINK;
 
 const httpLink = new HttpLink({
   uri: "https://minaev.pw/works/test-wp/graphql",
